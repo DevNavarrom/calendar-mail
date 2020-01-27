@@ -23,8 +23,8 @@ function sendMails(data) {
     var transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-            user: 'tuemail@gmail.com',
-            pass: 'tupassword'
+            user: 'dnavarromartinez@correo.unicordoba.edu.co',
+            pass: 'password921202'
         }
         
     });
@@ -35,7 +35,7 @@ function sendMails(data) {
     </div>`;
 
     var mailOptions = {
-        from: 'tuemail@gmail.com',
+        from: 'dnavarromartinez@correo.unicordoba.edu.co',
         to: data,
         subject: 'Tarjeta de Cumpleaños',
         html: '<img src="http://159.65.228.145/imagesigec/card.jpeg"/>'
