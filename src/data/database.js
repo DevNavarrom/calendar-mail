@@ -11,7 +11,8 @@ module.exports = pool;*/
 
 //---------------------------------------------------------------------------------------------
 const { Client } = require('pg')
-const connectionString = 'postgresql://postgres:brasileno921202@localhost:5432/unicordoba'
+//const connectionString = 'postgresql://postgres:brasileno921202@localhost:5432/unicordoba'
+const connectionString = 'postgresql://pbjwhdalpysmey:6c09cfc87e7f1baf3a452fb1f367b7e206d648e81943d89e5342ddc5839b2f27@ec2-3-224-165-85.compute-1.amazonaws.com:5432/dbgpmnkqpc4ln0'
 
 class PostgreSql {
 
